@@ -28,15 +28,17 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              <a class="navbar-brand" href="#">Brand</a>
+              <a class="navbar-brand" href="#">
+                  <img src="images/logo.jpg" alt="logo fundación niño y cáncer azul" style="height: 30px">
+              </a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
               <ul class="nav navbar-nav navbar-right">
-                <li><a href="#">Link</a></li>
-                <li><a href="#">Link</a></li>
-                <li><a href="#">Link</a></li>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Nosotros</a></li>
+                <li><a href="#">Noticias</a></li>
               </ul>
             </div><!-- /.navbar-collapse -->
           </div><!-- /.container-fluid -->
@@ -44,6 +46,7 @@
 
         <div class="row banner">
             <div class="col-md-12">
+                <img src="images/nieve.jpg" alt="niños en la nieve" class="img-responsive" style="width: 100%">
 
             </div>
         </div><!--cierre banner-->
@@ -53,11 +56,13 @@
             <div class="row">
               <div class="col-sm-12 col-md-12">
                 <div class="thumbnail">
-                  <img src="..." alt="...">
+                  <img src="images/nieve2.png" alt="niños esquiando">
                   <div class="caption">
-                    <h3>Thumbnail label</h3>
-                    <p>...</p>
-                    <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+                    <h3>Montaña de la alegría 2018</h3>
+                    <p>
+                        Proyecto recreativo y psicoterapéutico que se realiza desde el año 2002. El grupo fue recibido en Hotel Radisson el día Vienes 24 Agosto 2018 donde se hizo una convivencia, se entregaron medallas recordatorias y se escuchó los comentarios y vivencias muy favorable y muy emotivas sobre su experiencia en esta actividad. También escuchamos los comentarios de los instructor y gerente de hotel...
+                    </p>
+                    <p><a href="#" class="btn btn-primary" role="button">Seguir leyendo</a>
                   </div>
                 </div>
               </div>
@@ -66,21 +71,25 @@
           <div class="row">
             <div class="col-sm-6 col-md-6">
               <div class="thumbnail">
-                <img src="..." alt="...">
+                <img src="images/beca.jpg" alt="gorro de graduado negro">
                 <div class="caption">
-                  <h3>Thumbnail label</h3>
-                  <p>...</p>
-                  <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+                  <h3>Finalizó proceso de postulación a Becas de Estudio 2018</h3>
+                  <p>
+                      El año 2018 se otorgaron un total de 28 becas de las cuales 15 corresponden alumnos antiguos y 13 son para alumnos que inician sus estudios superiores  este año 2018.
+                  </p>
+                  <p><a href="#" class="btn btn-primary" role="button">Seguir leyendo</a></p>
                 </div>
               </div>
             </div>
             <div class="col-sm-6 col-md-6">
               <div class="thumbnail">
-                <img src="..." alt="...">
+                <img src="images/llavesdepa.jpg" alt="personas recibiendo llaves">
                 <div class="caption">
-                  <h3>Thumbnail label</h3>
-                  <p>...</p>
-                  <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+                  <h3>Conozca los requisitos para postular a nuestros departamentos de acogida</h3>
+                  <p>Se encuentran ubicados en la comuna de Santiago Centro y en la ciudad de Concepción. Estos
+                    departamentos son un beneficio al que pueden optar los pacientes que siendo de provincia, el
+                    tratamiento lo realizan en hospitales o clínicas de Santiago.</p>
+                  <p><a href="#" class="btn btn-primary" role="button">Seguir leyendo</a></p>
                 </div>
               </div>
             </div>
@@ -92,19 +101,55 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-6">
-                        <h3></h3>
-                        <p></p>
+                        <h3>Contacto</h3>
+                        <p>Teléfonos: 22170821 - 22170811</p>
+                        <p>Cuenta Corriente: Banco BCI N°8599 9997</p>
+                        <p>RUT: 72.169.900-5</p>
+                        <p>
+                            <small>Facebook</small>
+                            <a href="https://www.facebook.com/ninoycancer/">
+                                <img src="images/facebook.png" alt="facebook">
+                            </a>
+                        </p>
+                        <p>
+                            <small>Instagram</small>
+                            <a href="https://www.instagram.com/ninoycancer/">
+                                <img src="images/instagram.png" alt="instagram">
+                            </a>
+                        </p>
+                        <p>
+                            <small>Twitter</small>
+                            <a href="https://twitter.com/ninoycancer">
+                                <img src="images/twitter.png" alt="twitter">
+                            </a>
+                        </p>
                     </div>
                     <div class="col-md-6">
-                        <form>
+                            <form class="form-horizontal" action="/action_page.php">
+                              <div class="form-group">
+                                  <label for="usr">Name:</label>
+                                  <input type="text" class="form-control" id="usr" placeholder="Escriba aquí su nombre">
+                              </div>
+                              <div class="form-group">
+                                    <label for="email">Email:</label>
+                                    <input type="email" class="form-control" id="email" placeholder="Escriba aquí su email">
+                              </div>
+                              <div class="form-group">
+                                <label for="comment">Mensaje:</label>
+                                <textarea class="form-control" rows="5" id="comment" placeholder="Escriba aquí su mensaje/consulta"></textarea>
+                              </div>
 
-                        </form>
+                              <div class="form-group">
+                                 <button type="submit" class="btn btn-default">Enviar</button>
+                              </div>
+                            </form>
                     </div>
                 </div><!--fin primer row container footer-->
                 <div class="row">
+                    <div class="col-md-12">
                     <div class="embed-responsive embed-responsive-16by9">
-                        <div class="col-md-12">
-                            <iframe></iframe>
+
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3331.5093060796958!2d-70.53933968548866!3d-33.38387450148306!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662c952b6e45c13%3A0xe20a79d839401910!2sTupungato+10070%2C+Vitacura%2C+Regi%C3%B3n+Metropolitana!5e0!3m2!1ses-419!2scl!4v1540090940288" width="400" height="100" frameborder="0" style="border:0" allowfullscreen></iframe>
                         </div>
                     </div>
                 </div><!--fin segundo row container footer-->
