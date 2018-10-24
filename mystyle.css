@@ -1,0 +1,46 @@
+
+.navbar-default{
+    background-image: none;
+    background-color: #235cad;
+    height: 60px
+}
+
+.navbar-default .navbar-nav>li>a{
+    color: white;
+}
+.banner{
+    margin-top: 70px;
+}
+.page-header h2{
+    color: #656262;
+}
+.right{
+    margin-top: 50px;
+}
+.right img{
+    height: 64px;
+}
+.right h2{
+    color: #868585;
+    font-size: 25px;
+}
+footer{
+    background-color: #235cad;
+    color: white;
+}
+footer h3{
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+footer p{
+    font-size: 14px;
+}
+footer img{
+    height: 20px;
+    padding-right: 10px;
+}
+iframe .mapa{
+    height: 200px;
+    padding-bottom: 20%;
+}
